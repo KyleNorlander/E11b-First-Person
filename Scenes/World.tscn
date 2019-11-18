@@ -25,6 +25,7 @@ mesh = SubResource( 2 )
 material/0 = null
 
 [node name="CollisionShape" type="CollisionShape" parent="Ground"]
+transform = Transform( 0.999983, 0.0058454, 0, -0.0058454, 0.999983, 0, 0, 0, 1, 0, 0, 0 )
 shape = SubResource( 3 )
 
 [node name="Crate" parent="." instance=ExtResource( 2 )]
